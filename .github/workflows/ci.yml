@@ -54,7 +54,7 @@ jobs:
 
     - name: clippy
       run: |
-        cargo clean -p fb
+        cargo clean -p fb-api
         cargo clippy
 
     - name: tests
