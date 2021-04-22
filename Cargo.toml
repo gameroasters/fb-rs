@@ -1,0 +1,15 @@
+[package]
+name = "fb"
+version = "0.1.0"
+authors = ["Stephan Dilly <dilly.stephan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.5", default-features = false, features = ["macros"] }
+hyper = { version = "0.14", features = ["client","http1"] }
+hyper-tls = "0.5.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+async-trait = "0.1"
+thiserror = "1.0"
+url = "2.1"
