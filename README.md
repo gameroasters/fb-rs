@@ -6,7 +6,7 @@
 [s1]: https://img.shields.io/crates/v/fb-api.svg
 [l1]: https://crates.io/crates/fb-api
 [s2]: https://docs.rs/fb-api/badge.svg
-[l2]: https://crates.io/crates/fb-api
+[l2]: https://docs.rs/fb-api
 
 Facebook api abstraction for async rust.
 
