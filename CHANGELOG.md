@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [0.1.2] - 2021-07-01
+
 ## Changed
 - bumped dependencies and pin to tokio `1`-major due to api stability promise
 - removed `Cargo.lock`
