@@ -8,7 +8,6 @@ license-file = "LICENSE"
 keywords = ["facebook","authentication","graph"]
 categories = ["web-programming","asynchronous"]
 description = "Facebook Api abstraction for async rust"
-resolver = "2"
 
 [dependencies]
 tokio = { version = "1.5", default-features = false, features = ["macros"] }
